@@ -17,4 +17,4 @@ runs-on: ubuntu-latest
     - name: make test
       run: make -C 3_Implementation/ Test
     - name: Valgrid
-      run: valgrind ./3_Implementation/build/Test.out
+
