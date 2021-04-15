@@ -2,23 +2,21 @@ C/C++ CI-Build | Cppcheck | Unit testing | Git inspector | Codacy
 ---------------|----------|--------------|---------------|-------
 [![C/C++ CI](https://github.com/256604/Mini_project/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/256604/Mini_project/actions/workflows/c-cpp.yml) | [![Static Cppcheck](https://github.com/256604/Mini_project/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/256604/Mini_project/actions/workflows/cppcheck.yml) |  [![Unity - Unit Testing](https://github.com/256604/Mini_project/actions/workflows/unity.yml/badge.svg)](https://github.com/256604/Mini_project/actions/workflows/unity.yml) | [![Git Inspector](https://github.com/256604/Mini_project/actions/workflows/Git_inspector.yml/badge.svg)](https://github.com/256604/Mini_project/actions/workflows/Git_inspector.yml) |[![Codacy Badge](https://app.codacy.com/project/badge/Grade/2e66523968d74b09966dec516f8b12c5)](https://www.codacy.com/gh/256604/Mini_project/dashboardutm_source=github.com&amp;utm_medium=referral&amp;utm_content=256604/Mini_project&amp;utm_campaign=Badge_Grade) 
 # DISTRIBUTION TRANSFORMER PARAMETER ESTIMATION SYSTEM
-# Description:
+# Description
 * This estimator system helps the user to get complete information about the Distribution Transformer for various input load conditions per annum.
 * This system estimates Output energy of a transformer,Energy spent on copper loss;iron loss,Efficiency of the transformer,Operational cost of Distribution,Optimal load and Maximum possible Efficiency of a given Distribution Transformer.
 * It helps in reducing manual Calculation and makes our job easier once we have lot of dynamically varying load conditions.
-# Block Diagram:
-
-# Functions:
+# Functions
 * Structures
 * Pointer
 * User Defined Header File
 * Unity Test Framework
 * Compatibility with Windows and Linux
-# Approach:
+# Approach
 * Multi file programming
 * Makefile to compile,run,test and check code coverage
 * Makefile which works both in linux and windows
-# IDE used:
+# IDE used
 * Visual studio code
 # Requirements
 * Unit Framework Library
@@ -37,10 +35,10 @@ C/C++ CI-Build | Cppcheck | Unit testing | Git inspector | Codacy
 * Store it in your local machine 
 * Open cmd(windows) or terminal(linux) at the Project implementation loacation
 * Commands
-      1.To compile: use **make** command
-      2.To run: use **make run** command
-      3.To do unit testing: use **make test** command
-      4.To do code coverage: use **make coverage** command
+  * To compile: use **make** command
+  * To run: use **make run** command
+  * To do unit testing: use **make test** command
+  * To do code coverage: use **make coverage** command
 * While the code is running,follow the instructions in cmd or terminal.
 * You are done!!
 # Reference 
