@@ -1,4 +1,5 @@
-name: CodeQuality Dynamic Code Analysis Valgrind
+name: Valgrind_Check
+
 on:
   push:
     branches: [ main ]
@@ -6,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  test:
+  build:
 
     runs-on: ubuntu-latest
 
@@ -16,7 +17,7 @@ jobs:
       run: |
         sudo apt-get -y install valgrind
         sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
-    - name: make test
-      run: make -C 3_Implementation/ Test
-    - name: Valgrid
-      run: valgrind ./3_Implementation/build/Transformer_cost_estimation.out
+    - name: make Test
+      run: |
+        make run -C 3_Implementation/
+        valgrind ./3_Implementation/Transformer_cost_estimation.out
