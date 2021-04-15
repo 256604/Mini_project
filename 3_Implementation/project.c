@@ -2,7 +2,7 @@
 #include<assert.h>
 #include<string.h>
 #include<stdlib.h>
-#include"Project.h"
+#include"inc/Project.h"
 void setUp(){}
 void tearDown(){}
 enum calculate
