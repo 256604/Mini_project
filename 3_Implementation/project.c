@@ -118,6 +118,8 @@ start:
         break;
     case EXIT:
         exit(0);
+    default:
+        exit(0);
     }
     printf("\n----------------------------------------------------------------------\n");
     goto start;
