@@ -1,4 +1,4 @@
-#include "../Project.h"
+#include "../inc/Project.h"
 #include "../unity/unity.h"
 #include "../unity/unity_internals.h"
 #include<stdio.h>
