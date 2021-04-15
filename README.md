@@ -35,7 +35,7 @@ C/C++ CI-Build | Cppcheck | Unit testing | Git inspector | Codacy
 * Store it in your local machine 
 * Open cmd(windows) or terminal(linux) at the Project implementation loacation
 * Commands
-  * To compile: use **make** comman
+  * To compile: use **make** command
   * To run: use **make run** command
   * To do unit testing: use **make test** command
   * To do code coverage: use **make coverage** command
