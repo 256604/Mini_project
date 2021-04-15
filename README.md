@@ -18,18 +18,6 @@ C/C++ CI-Build | Cppcheck | Unit testing | Git inspector | Codacy
 * Makefile which works both in linux and windows
 # IDE used
 * Visual studio code
-# Requirements
-* Unit Framework Library
-* MakeFile Configuration
-* Mingw-w64(It runs on 64Bit but there is option for 32 bit too)
-* gcc compiler
-* Additional Visual studio code extension
-  * Extension C/C++ 
-  * Doxygen Extension
-  * C/C++ Debugger Configuration
-* Code Coverage
-* CppCheck(Static memory analysis)
-* Git-2.31.0-64-bit
 # Run the project
 * Clone the entire repo
 * Store it in your local machine 
