@@ -10,7 +10,7 @@
 
 ## High Level Design 
 * USE CASE DIAGRAM :
-
+![image](https://github.com/256604/Mini_project/blob/main/2_Architecture/Structural%20diagram/Untitled%20Workspace%20(1).png)
 
 
 * PACKAGE DIAGRAM:
