@@ -10,7 +10,8 @@
 
 ## High Level Design 
 * USE CASE DIAGRAM :
-![image]()
+
 
 
 * PACKAGE DIAGRAM:
+![image](https://github.com/256604/Mini_project/blob/main/2_Architecture/Structural%20diagram/Package%20diagram.png)
