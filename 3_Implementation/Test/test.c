@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include "../unity/unity.h"
 #include "../unity/unity_internals.h"
-#include "../Project.h"
+#include "../inc/Project.h"
 void setUp(){}
 void tearDown(){}
 void test_case1(void)
