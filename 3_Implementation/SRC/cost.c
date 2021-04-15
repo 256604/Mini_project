@@ -3,7 +3,7 @@
 #include "../unity/unity_internals.h"
 
 #include <stdio.h>
-#include<math.h>
+#include <math.h>
 
 float cost(float output_energy,float copper_loss_energy,float iron_loss_energy,float cost_per_unit)
 {
