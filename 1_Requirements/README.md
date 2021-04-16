@@ -59,31 +59,33 @@ The system is expected to work in distribution system all over India.
 * How:
 User can view the options for calculating various Parameters of Transformer once the code is runned.
 
-### HIGH LEVEL REQUIREMENTS
+# High level requirements
 |ID|DESCRIPTION|STATUS|
 |-------|-------|-----|
 |H1 |Input transformer’s data from user |Implemented|
 |H2 |Input Load data from user | Implemented|
-|H3 | |Implemented|
-|H4 |Calculation of Output Power| Implemented|
-|H5 |Calculation of Shaft torque| Implemented|
-|H6 |Calculation of Efficiency |Implemented|
-|H7 |Calculation of Total losses |Implemented|
-|H8|Calculation of Rotor power |Implemented|
-|H9| Calculation of Torque developed in forward direction |Implemented|
-|H10| Calculation of Torque developed in Backward direction |Implemented|
+|H3 |Input user’s choice for calculation |Implemented|
+|H4 |Estimation of output energy| Implemented|
+|H5 |Estimation of energy spent for copper loss| Implemented|
+|H6 |Estimation of energy spent for iron loss |Implemented|
+|H7 |Estimation of optimum load |Implemented|
+|H8|Estimation of operational cost |Implemented|
+|H9| Estimation of efficiency |Implemented|
+|H10| Display the calculated parameters |Implemented|
 
-### LOW LEVEL REQUIREMENTS
+# Low level requirements
 
 |ID |DESCRIPTION| ID |STATUS|
 |-----|------|------|------|
-|L1| Calculation of Synchronous frequency by getting inputs such as Slip and Rotor frequency from user |H1 |Implemented|
-|L2| Calculation of Synchronous speed by getting inputs such as number of poles from user and Synchronous frequency from previous function| H2 |Implemented|
-|L3| Calculation of Power developed by getting inputs such as Torque developed and slip from user| H3| Implemented|
-|L4| Calculation of Output power by getting inputs such as power developed from previous function and mechanical loss from user |H4 |Implemented|
-|L5| Calculation of Shaft torque by getting inputs such as output power and from previous function| H5 |Implemented|
-|L6| Calculation of Efficiency by getting inputs such as Input power from user and Output power from fourth function |H6 |Implemented|
-|L7| Calculation of Total losses by getting inputs such as Input power from user and Output power from fourth function| H7 |Implemented|
-|L8| Calculation of Rotor power by getting inputs such as Torque developed and copper loss from user |H8 |Implemented|
-|L9| Calculation of Torque developed in forward direction by getting inputs such as Torque developed from user and Rotor power from previous function| H9 |Implemented|
-|L10|Calculation of Torque developed in backward direction by getting inputs such as Torque developed from user and Rotor power from previous function |H10 |Implemented|
+|L1| Input Transformer’s rating, copper and iron loss in KW, cost per unit |H1 |Implemented|
+|L2| Input load type, Power factor, and hours of operation| H2 |Implemented|
+|L3| Input user’s preferred choice like
+1-optimum load,2-output energy,3-copper loss in KWh,4-iron loss in KWh,5-efficiency,6-operational cost,7-display,8-exit
+| H3| Implemented|
+|L4| Output energy is estimated with Rating, load data|H4 |Implemented|
+|L5| Energy spent for copper loss is estimated with copper loss, load data| H5 |Implemented|
+|L6| Energy spent for iron loss is estimated with iron loss |H6 |Implemented|
+|L7| Optimum load is estimated with rating, iron and copper loss| H7 |Implemented|
+|L8| Operational cost is estimated with output energy , copper and iron loss energy, cost per unit |H8 |Implemented|
+|L9| Efficiency is estimated with output energy, iron and copper loss energy| H9 |Implemented|
+|L10|All calculated parameters are displayed |H10 |Implemented|
