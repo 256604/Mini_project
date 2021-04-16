@@ -8,6 +8,24 @@ Code Coverage | Valgrind
 * This estimator system helps the user to get complete information about the Distribution Transformer for various input load conditions per annum.
 * This system estimates Output energy of a transformer,Energy spent on copper loss;iron loss,Efficiency of the transformer,Operational cost of Distribution,Optimal load and Maximum possible Efficiency of a given Distribution Transformer.
 * It helps in reducing manual Calculation and makes our job easier once we have lot of dynamically varying load conditions.
+# Folder Structure
+Folder             | Description
+-------------------| -----------------------------------------
+`1_Requirements`   | Documents detailing requirements and research
+`2_Architecture`   | Documents specifying architecture details
+`3_Implementation` | All code and documentation
+`4_Test_plan`      | Documents with test plans and procedures
+`5_Report`         | Report of the project
+`6_Images_and_videos`| Output images of the project
+# Contribution list summary
+
+PS No. |  Name   |    Features    | Issues Raised |Issues Resolved|No Test Cases|Test Case Pass
+-------|---------|----------------|----------------|---------------|-------------|--------------
+`256604` |Elakiya M  | Feature A B C D E F G     | No 0    | No 0  |Yes 7   |Yes 7   
+# Challenges faced and how it was overcome
+
+1. Faced issue with code coverage yml,it keeps on in progress as my code has goto and doesnt have an proper terminating condition.After,I resolved by adding exit(0) in default case.
+
 # Functions
 * Structures
 * Pointer
