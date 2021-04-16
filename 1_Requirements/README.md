@@ -39,8 +39,9 @@ Defining the system
 -Estimated parameters of a transformer is displayed
 
 # Block diagram
-[!image](https://github.com/256604/Mini_project/blob/main/1_Requirements/Doc1.png)
+![image](https://github.com/256604/Mini_project/blob/main/1_Requirements/Doc1.png)
 # SWOT Analysis
+![image](https://github.com/256604/Mini_project/blob/main/1_Requirements/Untitled%20Workspace.png)
 
 
 # 5 W’s 1 H
