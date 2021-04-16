@@ -2,7 +2,7 @@
 #include "../unity/unity.h"
 #include "../unity/unity_internals.h"
 #include <stdio.h>
-
+//function to calculate energy spent on iron loss
 float energy_iron(float iron_loss)
 {
     if(iron_loss>0)
