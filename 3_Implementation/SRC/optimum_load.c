@@ -6,6 +6,7 @@
 
 //void setUp(){}
 //void tearDown(){}
+//function to calculate optimum load
 float optimum_load(float copper_loss,float iron_loss,float rating)
 {
     
