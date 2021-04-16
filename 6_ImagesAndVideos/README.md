@@ -8,3 +8,4 @@
 # Coverage result
 ![image](https://github.com/256604/Mini_project/blob/main/6_ImagesAndVideos/make%20coverage.png)
 # Clean result
+![image](https://github.com/256604/Mini_project/blob/main/6_ImagesAndVideos/Make%20clean.png)
