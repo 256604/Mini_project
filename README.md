@@ -15,9 +15,9 @@ Folder             | Description
 `1_Requirements`   | Documents detailing requirements and research
 `2_Architecture`   | Documents specifying architecture details
 `3_Implementation` | All code and documentation
-`4_Test_plan`      | Documents with test plans and procedures
+`4_TestPlanAndOutput`      | Documents with test plans and procedures
 `5_Report`         | Report of the project
-`6_Images_and_videos`| Output images of the project
+`6_ImagesAndVideos`| Output images of the project
 # Contribution list summary
 
 PS No. |  Name   |    Features    | Issues Raised |Issues Resolved|No Test Cases|Test Case Pass
