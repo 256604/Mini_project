@@ -5,6 +5,7 @@
 #include"inc/Project.h"
 void setUp(){}
 void tearDown(){}
+//options available for calculation
 enum calculate
 {
     OPTIMAL_LOAD=1,OUTPUT_ENERGY,COPPER_LOSS_KWH,IRON_LOSS_KWH,MAXIMUM_EFFICIENCY,EFFICIENCY_FOR_A_GIVEN_LOAD,OPERATIONAL_COST,DISPLAY,EXIT
@@ -13,7 +14,7 @@ enum calculate
 int calculation;
 int i,j;
 
-
+//Transformer structure with specifications
 typedef struct Transformer
 {
     float rating;
@@ -24,10 +25,11 @@ typedef struct Transformer
 }t; 
 int main()
 {
-    t t1;
-    t *tp;
+    t t1; //t1 of variable transformer structure type
+    t *tp; //tp pointer of transformer structure type
     tp=(t *)malloc(20);
     tp=&t1;
+    //to get details of transformer from user 
     /*printf("*****************Enter Transformer informations*****************\n");
     printf("\n------------------------------------------------------------------\n");
     printf("\nEnter transformer Rating in KVA\n");
@@ -41,7 +43,7 @@ int main()
     printf("Enter the number of annual load conditions\n");
     scanf("%d",&t1.annual_load_condition);
     float load_info[t1.annual_load_condition][3];
-    
+    //to get details of load 
     for(i=0;i<t1.annual_load_condition;i++)
     {
         printf("Enter the load information:load_type,pf,hours of operation\n");
@@ -51,6 +53,7 @@ int main()
         }
     }
     printf("\n--------------------------------------------------------------------\n");*/
+    //to initialize the values of parameters of transformer
     t1.rating=125.0;
     t1.copper_loss=1.5;
     t1.iron_loss=1.0;
@@ -73,7 +76,7 @@ start:
     float output_energy_max=0,copper_loss_energy_min=0;
     
     
-    
+    //to calculate output energy,maximum output energy and copper loss energy,minimum copper loss energy 
     for(i=0;i<3;i++)
     {for(j=0;j<1;j++)
     {
@@ -82,14 +85,14 @@ start:
     output_energy_max+=energy_output(tp->rating,load/tp->rating,load_info[i][j+1],load_info[i][j+2]);
     copper_loss_energy_min+=energy_copper(load/tp->rating,tp->copper_loss,load_info[i][j+2]);
     }}
-
+    //to calculate optimum load,iron loss energy,efficiency,operational cost and maximum efficiency
     load=optimum_load(tp->copper_loss,tp->iron_loss,tp->rating);
     iron_loss_energy=energy_iron(tp->iron_loss);
     efficiency_=efficiency(output_energy,copper_loss_energy,iron_loss_energy);
     operational_cost=cost(output_energy,copper_loss_energy,iron_loss_energy,t1.cost_per_unit);
     max_efficiency=efficiency(output_energy_max,copper_loss_energy_min,iron_loss_energy);
 
-    
+    //to display the parameter needed by the user
     switch (calculation)
     {
     case OPTIMAL_LOAD:
