@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 #include <math.h>
-
+//function to calculate operational cost 
 float cost(float output_energy,float copper_loss_energy,float iron_loss_energy,float cost_per_unit)
 {
     if((output_energy>0||copper_loss_energy>0||iron_loss_energy>0)&&(cost_per_unit>0))
