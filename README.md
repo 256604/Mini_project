@@ -53,6 +53,8 @@ PS No. |  Name   |    Features    | Issues Raised |Issues Resolved|No Test Cases
 * Git-2.31.0-64-bit
 # Run the project
 * Clone the entire repo
+* To give inputs, * uncomment line no.31 to line no.53 in project.c 
+                  * comment line no.54 to line no.60 in project.c
 * Store it in your local machine 
 * Open cmd(windows) or terminal(linux) at the Project implementation loacation
 * Commands
