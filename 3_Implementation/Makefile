@@ -1,4 +1,4 @@
-PROJECT_NAME = Transformer_cost_estimation
+PROJECT_NAME = Transformer_parameter_estimation
 UNIT_TEST_NAME=TEST_$(PROJECT_NAME)
 TO_DO =  SRC/cost.c  SRC/display.c SRC/efficiency.c SRC/energy_copper.c SRC/energy_iron.c SRC/energy_output.c SRC/optimum_load.c unity/unity.c  
 UNIT_TEST_CASE= Test/test.c unity/unity.c
