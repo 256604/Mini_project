@@ -2,7 +2,7 @@
 #include "../unity/unity.h"
 #include "../unity/unity_internals.h"
 #include <stdio.h>
-
+//function to calculate efficiency
 float efficiency(float output_energy,float copper_loss_energy,float iron_loss_energy)
 {
     if(output_energy>0&&(copper_loss_energy>0||iron_loss_energy>0))
