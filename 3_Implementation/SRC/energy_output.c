@@ -2,7 +2,7 @@
 #include "../unity/unity.h"
 #include "../unity/unity_internals.h"
 #include <stdio.h>
-
+//function to calculate output energy
 float energy_output(float rating,float load_type,float pf,float hours_of_operation)
 {
     if(rating>0&&load_type>0&&pf>0&&hours_of_operation>0)
