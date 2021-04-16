@@ -20,4 +20,4 @@ jobs:
     - name: make Test
       run: |
         make run -C 3_Implementation/
-        valgrind ./3_Implementation/Transformer_cost_estimation.out
+        valgrind ./3_Implementation/Transformer_parameter_estimation.out
