@@ -22,7 +22,7 @@ Folder             | Description
 
 PS No. |  Name   |    Features    | Issues Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`256604` |Elakiya M  | Feature A B C D E F G     | No 0    | No 0  |Yes 7   |Yes 7   
+`256604` |Elakiya M  | Feature Optimum load,output energy,energy spent on copper loss,energy spent on iron loss,efficiency,operational cost,display the results     | No 0    | No 0  |Yes 7   |Yes 7   
 # Challenges faced and how it was overcome
 
 1. Faced issue with code coverage yml,it keeps on in progress as my code has goto and doesnt have an proper terminating condition.After,I resolved by adding exit(0) in default case.
