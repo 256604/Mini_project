@@ -79,9 +79,7 @@ User can view the options for calculating various Parameters of Transformer once
 |-----|------|------|------|
 |L1| Input Transformer’s rating, copper and iron loss in KW, cost per unit |H1 |Implemented|
 |L2| Input load type, Power factor, and hours of operation| H2 |Implemented|
-|L3| Input user’s preferred choice like
-1-optimum load,2-output energy,3-copper loss in KWh,4-iron loss in KWh,5-efficiency,6-operational cost,7-display,8-exit
-| H3| Implemented|
+|L3| Input user’s preferred choice like 1-optimum load,2-output energy,3-copper loss in KWh,4-iron loss in KWh,5-efficiency,6-operational cost,7-display,8-exit | H3| Implemented|
 |L4| Output energy is estimated with Rating, load data|H4 |Implemented|
 |L5| Energy spent for copper loss is estimated with copper loss, load data| H5 |Implemented|
 |L6| Energy spent for iron loss is estimated with iron loss |H6 |Implemented|
