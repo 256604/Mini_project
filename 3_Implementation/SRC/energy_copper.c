@@ -3,7 +3,7 @@
 #include "../unity/unity_internals.h"
 
 #include <stdio.h>
-
+//function to calculate energy spent for copper loss
 float energy_copper(float load_type,float copper_loss,float hours_of_operation)
 {
     if(load_type>0&&copper_loss>0&&hours_of_operation>0){
