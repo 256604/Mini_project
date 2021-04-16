@@ -4,6 +4,7 @@ C/C++ CI-Build | Cppcheck | Unit testing | Git inspector | Codacy |
 Code Coverage | Valgrind
 [![Code Coverage](https://github.com/256604/Mini_project/actions/workflows/Code_coverage.yml/badge.svg)](https://github.com/256604/Mini_project/actions/workflows/Code_coverage.yml) | [![Valgrind_Check](https://github.com/256604/Mini_project/actions/workflows/Valgrind.yml/badge.svg)](https://github.com/256604/Mini_project/actions/workflows/Valgrind.yml)
  # DISTRIBUTION TRANSFORMER PARAMETER ESTIMATION SYSTEM
+ ![image](https://github.com/256604/Mini_project/blob/main/1_Requirements/Distribution-Transformers-744x446.jpg)
 # Description
 * This estimator system helps the user to get complete information about the Distribution Transformer for various input load conditions per annum.
 * This system estimates Output energy of a transformer,Energy spent on copper loss;iron loss,Efficiency of the transformer,Operational cost of Distribution,Optimal load and Maximum possible Efficiency of a given Distribution Transformer.
