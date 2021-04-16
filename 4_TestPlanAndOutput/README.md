@@ -15,4 +15,4 @@
 |  L_02       |energy_output|120.0,1.0,0.8,2000.0|192000.0000|192000.0000|Requirement based|
 |  L_03       |energy_spent_for_copper_loss|1.0,1.5,2000.0|3000.0000|3000.0000|Requirement based|
 |  L_04       |energy_spent_for_iron_loss|1.0|8760.0000|8760.0000|Requirement based|
-|  L_05       |Shaft torque|151.84,1440|1.14027|1.14027|Requirement based|
+
