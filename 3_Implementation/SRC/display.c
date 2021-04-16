@@ -6,6 +6,7 @@
 #include <math.h>
 //void setUp(){}
 //void tearDown(){}
+//function to display all the calculated parameters
 int display(float l,float e,float cu_l,float emax,float cu_min,float iron,float eff,float cost,float eff_max)
 {
   if(l>0||e>0||cu_l>0||emax>0||cu_min>0||iron>0||eff>0||cost>0||eff_max>0)
